@@ -7,7 +7,7 @@ export const App = () => {
       <h1>PAGE</h1>
       <Link to={'/about'}>ABOUT</Link>
       <br />
-      <Link to={'/shop'}>SHOP</Link>
+      <Link to={'/shop/main'}>SHOP</Link>
       <Outlet />
     </div>
   )
